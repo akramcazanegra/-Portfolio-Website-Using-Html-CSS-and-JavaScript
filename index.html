@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+    <title>PORTFOLIO </title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-logo">
+        <a href="index.html">CAZ<span>A</span>NEGRA</a>
+      </div>
+      <nav>
+        <ul class="sidebar">
+          <li onclick="closesidebar()"><a href="#">X</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul>
+          <li class="hide"><a href="index.html" class="active">Home</a></li>
+          <li class="hide"><a href="#about">About</a></li>
+          <li class="hide"><a href="#portfolio">Portfolio</a></li>
+          <li class="hide"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="menu">
+        <button onclick="showsidebar()" class="btn menu">Menu</button>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="home-text">
+          <h1>Hi,</h1>
+          <h1>I'am <span>Akram</span></h1>
+          <h1>Developer Web </h1>
+          <div class="social-links">
+            <a href="#"> <i class="i bx bxl-linkedin"></i></a>
+            <a href="#"> <i class="i bx bxl-github"></i></a>
+            <a href="#"> <i class="i bx bxl-youtube"></i></a>
+          </div>
+          <button class="btn"> MyContact</button>
+        </div>
+
+        <div class="home-img">
+          <img src="12.JPG" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="heading">
+        <h1>About</h1>
+      </div>
+      <div class="about-content">
+        <div class="about-img">
+          <img src="12.JPG" alt="" />
+        </div>
+        <div class="about-text">
+          <h1>I'am Akram</h1>
+          <p>
+            I am a developer web  with skills and experience in creating wonderful
+            and responsive websites using html css and javascript. i have
+            created upto 1000+ projects on business, entertainment and study
+            based websites.
+          </p>
+          <button class="btn">Know More!</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="heading">
+        <h1>Portfolio</h1>
+      </div>
+      <div class="project-boxs">
+        <div class="project-box">
+          <img src="PORTFOLIO_.png" alt="" />
+          <h1>Portfolio</h1>
+        </div>
+        <div class="project-box">
+          <img src="MOVIES_.png" alt="" />
+          <h1>Movies</h1>
+        </div>
+        <div class="project-box">
+          <img src="CAR_RENTAL_.png" alt="" />
+          <h1>Car Rental</h1>
+        </div>
+        <div class="project-box">
+          <img src="SHOPPING_.png" alt="" />
+          <h1>Shopping</h1>
+        </div>
+        <div class="project-box">
+          <img src="CAKE_.png" alt="" />
+          <h1>Cake</h1>
+        </div>
+        <div class="project-box">
+          <img src="G-FOOD_.png" alt="" />
+          <h1>Food</h1>
+        </div>
+        <div class="project-box">
+          <img src="D'LIFE_.png" alt="" />
+          <h1>D-Life</h1>
+        </div>
+        <div class="project-box">
+          <img src="TRAVEL.png" alt="" />
+          <h1>Travel</h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="heading">
+        <h1>Contact</h1>
+      </div>
+      <form action="">
+        <input type="text" placeholder="Name" />
+        <input type="email" name="" id="" placeholder="Email" />
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input class="btn" type="submit" value="Submit" placeholder="Submit" />
+      </form>
+    </section>
+
+    <footer>
+      <div class="heading">
+        <h1>CAZANEGRA</h1>
+      </div>
+      <div class="social-links">
+        <a href="#"> <i class="i bx bxl-linkedin"></i></a>
+        <a href="#"> <i class="i bx bxl-github"></i></a>
+        <a href="#"> <i class="i bx bxl-youtube"></i></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
